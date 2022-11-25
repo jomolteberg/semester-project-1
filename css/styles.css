@@ -13,10 +13,34 @@ main > * {
 
 }
 
+a {
+    text-decoration: none;
+}
 
 img {
     max-width: 358px;
     width: 100%;
     border-radius: 7px;
    
+}
+
+.img__logo {
+    height: 75px;
+}
+
+.logo__text {
+    text-transform: uppercase;
+}
+
+.header__nav-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+.header__nav-menu {
+    display: none;
+    list-style: none;
 }
