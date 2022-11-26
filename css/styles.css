@@ -1,46 +1,111 @@
+@import "../css/imports/links.css";
+@import "../css/imports/variables.css";
+
+
+/* Global */
+
+h1,
+h2,
+a {
+  font-family: var(--text-heading);
+}
+
+p {
+  font-family: var(--text-paragraph);
+}
+
+body {
+  margin: 0;
+}
+
 main {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    text-align: center;
-    margin: 110px 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
 }
 
 main > * {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
 }
 
 img {
-    max-width: 358px;
-    width: 100%;
-    border-radius: 7px;
-   
+  max-width: 100%;
+  width: 100%;
+  border-radius: 7px;
+}
+
+header {
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
 }
 
 .img__logo {
-    height: 75px;
+  height: 75px;
+  flex: 1;
 }
 
+
+
 .logo__text {
-    text-transform: uppercase;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  flex: 1;
+}
+
+.logo__text-museum {
+  color: var(--color-main);
 }
 
 .header__nav-container {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 25px 32px 25px;
+  justify-content: space-between;
+}
+
+.header__nav-menu,
+#menu-checkbox {
+  display: none;
+  list-style: none;
+}
+
+#menu-checkbox:checked ~ .header__nav-menu {
+  display: block;
+}
+
+.header__nav-menu {
+  position: absolute;
+  background: var(--color-main);
+  top: 55px;
+  right: 0px;
+}
+
+.header__nav-menu a {
+  display: block;
+  color: white;
+  font-family: var(--text-paragraph);
+  padding: 10px 20px;
 }
 
 
-.header__nav-menu {
-    display: none;
-    list-style: none;
+.fa-solid, .fas {
+    color: var(--color-main);
+    font-size: 30px;
 }

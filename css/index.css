@@ -1,0 +1,38 @@
+
+
+
+.home-page_introduction {
+    color: white;
+    background: url(../images/vr-image-gradient.png);
+    background-position: center;
+    background-size: cover;
+    height: 460px;
+    background-blend-mode: multiply;
+    font-family: var(--text-heading);
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .home-page_introduction p {
+    width: 364px;
+    height: 64px;
+    margin: 44px auto;
+  }
+
+
+
+
+
+
+
+
+
+.home-page__read-more {
+    background-color: var(--color-main);
+    color: white;
+    text-align: left;
+  }
+  
+  .home-page__read-more > * {
+    margin: 10px 25px;
+  }
