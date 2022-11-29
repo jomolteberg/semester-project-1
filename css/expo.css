@@ -1,0 +1,15 @@
+.hero_expo {
+    color: white;
+    background: url(../images/explore-img.png);
+    background-position: center;
+    background-size: cover;
+    height: 460px;
+    background-blend-mode: multiply;
+    font-family: var(--text-heading);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.hero_expo h1 {
+    margin-top: 186px;
+}

@@ -2,7 +2,7 @@
 
 
 
-.home-page_introduction {
+.hero_index {
     color: white;
     background: url(../images/vr-image-gradient.png);
     background-position: center;
@@ -12,10 +12,9 @@
     font-family: var(--text-heading);
     font-size: 16px;
     font-weight: 700;
-    
-  }
+} 
   
-  .home-page_introduction h1 {
+  .hero_index h1 {
     width: 420px;
     height: 64px;
     margin: 44px auto;
@@ -29,13 +28,7 @@
     padding-bottom: 70px;
   }
   
-  .home-page__read-more > * {
-    margin: 0px 34px;
-  }
 
-  .img_large {
-   margin-top: 60px;
-  }
 
   .text_special-events {
     color: var(--color-main);

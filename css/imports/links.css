@@ -30,3 +30,8 @@ margin: 20px auto;
     box-sizing: border-box;
     padding: 28px 11px;
 }
+
+.button_small {
+    width: 139px;
+height: 58px;
+}
