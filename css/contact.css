@@ -1,6 +1,6 @@
-.hero_expo {
+.hero_contact {
     color: white;
-    background: url(../images/expo-img.png);
+    background: url(../images/contact-img.png);
     background-position: center;
     background-size: cover;
     height: 460px;
@@ -10,6 +10,6 @@
     font-weight: 700;
 }
 
-.hero_expo h1 {
+.hero_contact h1 {
     margin-top: 186px;
 }
