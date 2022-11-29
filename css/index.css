@@ -1,6 +1,7 @@
 
 
 
+
 .home-page_introduction {
     color: white;
     background: url(../images/vr-image-gradient.png);
@@ -11,28 +12,32 @@
     font-family: var(--text-heading);
     font-size: 16px;
     font-weight: 700;
+    
   }
   
-  .home-page_introduction p {
-    width: 364px;
+  .home-page_introduction h1 {
+    width: 420px;
     height: 64px;
     margin: 44px auto;
   }
-
-
-
-
-
-
-
-
 
 .home-page__read-more {
     background-color: var(--color-main);
     color: white;
     text-align: left;
+    padding-top: 31px;
+    padding-bottom: 70px;
   }
   
   .home-page__read-more > * {
-    margin: 10px 25px;
+    margin: 0px 34px;
+  }
+
+  .img_large {
+   margin-top: 60px;
+  }
+
+  .text_special-events {
+    color: var(--color-main);
+    text-decoration: underline;
   }
