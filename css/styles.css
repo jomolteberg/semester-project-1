@@ -16,6 +16,11 @@ li {
   font-family: var(--text-paragraph);
 }
 
+p {
+  text-align: justify;
+  line-height: 1.2;
+}
+
 h2,
 h3 {
   text-align: center;
