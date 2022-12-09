@@ -1,78 +1,117 @@
 @media (min-width: 800px) {
-  
   .header__nav-container {
-    margin: 0 71px 31px 71px;
+    margin: 0 10%;
+    min-height: 120px;
   }
 
- .header__nav-menu {
+  .header__nav-menu {
     display: flex;
     align-items: center;
     background: none;
     position: static;
-      }
-  
+  }
+
   .header__nav-menu a:hover {
     text-decoration: underline;
   }
-      
-.header__nav-menu a {
-        font-family: var(--text-heading);
-        color: var(--color-main);
-        font-weight: 700;
-        font-size: 1.75rem;
-      }
 
-.logo__text {
-  font-weight: 700;
-}
+  .header__nav-menu a {
+    font-family: var(--text-heading);
+    color: var(--color-main);
+    font-weight: 700;
+    font-size: 1.7vw;
+  }
 
-.hamburger-menu {
+  .logo__text {
+    font-weight: 700;
+    font-size: 1.5vw;
+  }
+
+  .img__logo {
+    height: 10vw;
+  }
+
+  .hamburger-menu {
     display: none;
-}
+  }
 
+  section > * {
+    margin: 0;
+  }
 
+  /* Index */
+  .index_mobile {
+    display: none;
+  }
 
+  .index_desktop {
+    display: flex;
+    flex-direction: row;
+    height: 910px;
+    margin: 0 10%;
+    gap: 0;
+  }
 
-/* Index */
-.index_mobile {
-  display: none;
-}
+  .index_explore {
+    flex: 1;
+    color: white;
+    background-color: var(--color-main);
+    font-size: 1.313rem;
 
-.index_desktop {
-  display: flex;
-  flex-direction: row;
-  height: 910px;
-  margin: 0 71px;
-  gap: 0;
-}
+    display: flex;
+    justify-content: center;
+  }
 
-.index_explore {
-  flex: 1;
-  color: white;
-  background-color: var(--color-main);
-  font-size: 1.313rem;
-  display: flex;
+  .index_hero-content {
+    max-width: 470px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero_index {
+    flex: 1;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .text_special-events {
+
+    padding: 42px;
+  }
+
+  .card_container {
+    flex-direction: row;
   
+    width: 100%;
+    justify-content: center;
   
-}
+  }
 
-.index_hero-content {
-  margin: 99px 88px 260px 88px;
-  max-width: 400px;
-  align-self: center;
-}
-
-.hero_index {
-  flex: 1;
-  width: 100%;
-  max-width: 100%;
-  height: 100%;
+  .card {
+      max-width: 331px;
+      width: 100%;
+      border-radius: 7px;
+      padding: 10px 0 10px;
+      gap: 0;
   
-}
+      min-height: 545px;
+      
+  }
 
-/* Explore */
+  .card p {
+    font-size: 21px;
+   
+  }
 
-/* Expo */
+  .card > * {
+    margin:  15px 25px;
+  }
 
 
+
+  /* Explore */
+
+  /* Expo */
 }
