@@ -101,7 +101,10 @@ img {
 }
 
 header {
-  position: relative;
+    background-color: white;
+    position: sticky;
+    top: 0;
+
 }
 
 .logo {
