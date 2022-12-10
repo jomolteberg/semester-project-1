@@ -116,7 +116,9 @@ img {
 }
 
 header {
-  position: relative;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
 .logo {
@@ -177,20 +179,34 @@ header {
   font-size: 30px;
 }
 
+
+
 .footer_container {
   background-color: var(--color-main);
   color: white;
   margin-top: 4rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+ 
 }
 
 .footer_hours {
-  grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-start: 4;
   grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-end: span 2;
+
+}
+
+.footer_location {
+  grid-column-start: 5;
+  grid-row-start: 1;
+}
+
+.footer_container a {
+  grid-column-start: 5;
+  grid-row-start: 2;
 }
 
 footer h3 {
