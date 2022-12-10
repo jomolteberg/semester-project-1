@@ -3,6 +3,12 @@
 
 /* Global */
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -14,6 +20,11 @@ a {
 p,
 li {
   font-family: var(--text-paragraph);
+}
+
+p {
+  text-align: justify;
+  line-height: 1.2;
 }
 
 h2,
@@ -72,7 +83,7 @@ section > * {
 
 .card p {
   font-size: 16px;
-  text-align: left;
+  text-align: justify;
 }
 
 .card h3 {
@@ -86,6 +97,10 @@ a {
 a:visited {
   text-decoration: none;
   color: black;
+}
+
+.text__color-orange {
+  color: #FC826A;
 }
 
 img {
