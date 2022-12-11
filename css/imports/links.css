@@ -23,6 +23,7 @@ line-height: 25px;
 text-align: center;
 border: none;
 margin: 20px 0;
+align-self: center;
 }
 
 .button-border {

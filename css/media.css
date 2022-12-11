@@ -1,4 +1,4 @@
-@media (min-width: 800px) {
+@media (min-width: 900px) {
 
   .header__nav-container {
     margin: 0 10%;
@@ -79,6 +79,14 @@
     gap: 1;
   }
 
+  .index_hero-content > p {
+    margin-top: 1rem;
+  }
+
+  .index_hero-content .button-border {
+    margin-top: 3rem;
+  }
+
   .hero_index {
     flex: 1;
     width: 100%;
@@ -87,7 +95,7 @@
   }
 
   .text_special-events {
-
+    font-size: 3.125rem;
     padding: 42px;
   }
 
@@ -99,23 +107,26 @@
   
   }
 
-  .card {
-      max-width: 331px;
+  .card__small {
+      max-width: 410px;
       width: 100%;
       border-radius: 7px;
       padding: 10px 0 10px;
       gap: 0;
-  
+      justify-content: space-between;
       min-height: 545px;
-      
   }
 
-  .card p {
-    font-size: 21px;
+  .card__small p {
+    font-size: 1.313rem;
    
   }
 
-  .card > * {
+  .card__small h3 {
+    font-size: 1.75rem;
+  }
+
+  .card__small > * {
     margin:  15px 25px;
   }
 

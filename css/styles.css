@@ -71,7 +71,7 @@ section > * {
   gap: 4rem;
 }
 
-.card {
+.card__small {
   background-color: var(--color-main);
   color: white;
   padding-top: 31px;
@@ -81,12 +81,12 @@ section > * {
   gap: 1rem;
 }
 
-.card p {
+.card__small p {
   font-size: 16px;
   text-align: justify;
 }
 
-.card h3 {
+.card__small h3 {
   font-size: 21px;
 }
 
@@ -105,14 +105,18 @@ a:visited {
 
 img {
   border-radius: 7px;
+  align-self: center;
 }
 
 .img_large {
   margin-top: 60px;
+  width: 358px;
 }
 
 .img_small {
   margin-top: 52px;
+  width: 358px;
+  height: 244px;
 }
 
 header {
