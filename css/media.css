@@ -355,7 +355,7 @@
   gap: 1rem;
   
   margin: 0 10% 5rem;
-  justify-content: center;
+  justify-content: space-around;
   color: var(--color-main);
     padding: 25px;
     border: 2px solid var(--color-orange);
@@ -365,10 +365,13 @@
 .flex_container-contact > * {
   flex: 1;
   max-width: 500px;
+  gap: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .flex-item_contact-2 img {
-  max-width: 400px;
+  max-width: 600px;
   
   width: 100%;
 }
