@@ -1,15 +1,26 @@
-/* .hero_contact {
-    color: white;
-    background: url(../images/contact-img.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 460px;
-    background-blend-mode: multiply;
-    font-family: var(--text-heading);
-    font-size: 16px;
-    font-weight: 700;
+.flex_container-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0 10% 5rem;
+  justify-content: space-around;
+  color: var(--color-main);
+  align-items: center;
 }
 
-.hero_contact h1 {
-    margin-top: 186px;
-} */
+.flex_container-contact > * {
+  flex: 1;
+  max-width: 500px;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-item_contact-2 img {
+  max-width: 600px;
+  width: 100%;
+}
+
+.flex_container-contact p {
+  margin: 0 10%;
+}
