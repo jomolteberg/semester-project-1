@@ -116,9 +116,6 @@
 
  
 .grid_container {
-  /* background-color: var(--color-main); */
-  background: linear-gradient(154deg, var(--color-main), #fc826aba);
-  color: var(--color-white);
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(4, 1fr);

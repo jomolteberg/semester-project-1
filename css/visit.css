@@ -5,13 +5,10 @@
   flex-direction: column;
   gap: 1rem;
 
-  margin: 0 10% 5rem;
+ 
   justify-content: space-around;
   color: var(--color-main);
   padding: 25px;
-
-  border-inline-end: 10px solid var(--color-orange);
-  border-block-end: 10px solid var(--color-orange);
 }
 
 .flex_container-visit > * {

@@ -227,14 +227,10 @@ footer h3 {
 /* Test */
 
 .grid_container {
-  /* background-color: var(--color-main); */
   background: linear-gradient(154deg, var(--color-main), #fc826aba);
   color: var(--color-white);
-  display: grid;
-  grid-template-columns: repeat(16, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  display: flex;
   margin: 0 10%;
-  padding: 3rem 2rem;
   border-radius: 7px;
   align-items: center;
 }
@@ -279,8 +275,6 @@ footer h3 {
   object-fit: cover;
   border-radius: 7px;
   max-height: 360px;
- 
- 
 }
 
 .img_news-reverse {
