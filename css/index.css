@@ -1,5 +1,5 @@
 
-.hero_index {
+/* .hero_index {
     color: white;
     background: url(../images/vr-image-gradient.jpg);
     background-position: center;
@@ -8,22 +8,32 @@
     background-blend-mode: multiply;
     font-family: var(--text-heading);
     
-} 
+}  */
   
+.hero_index {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
   .hero_index h1 {
-    width: 320px;
-    height: 64px;
-    margin: 44px auto;
     font-size: 1rem;
     font-weight: 700;
+    position: absolute;
+ 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
   }
 
 .home-page__read-more {
     background-color: var(--color-main);
     color: white;
     text-align: left;
-    padding-top: 31px;
-    padding-bottom: 70px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
   
 
@@ -36,4 +46,8 @@
 
   .index_desktop {
     display: none;
+  }
+
+  .img_read-more {
+    max-height: 500px;
   }

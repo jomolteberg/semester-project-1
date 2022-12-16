@@ -18,6 +18,7 @@
 .flex-item_contact-2 img {
   max-width: 600px;
   width: 100%;
+  max-height: 600px;
 }
 
 .flex_container-contact p {

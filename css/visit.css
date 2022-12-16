@@ -8,12 +8,15 @@
  
   justify-content: space-around;
   color: var(--color-main);
-  padding: 25px;
+  padding: 3rem;
 }
 
 .flex_container-visit > * {
   flex: 1;
   max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .flex_container-visit p {
