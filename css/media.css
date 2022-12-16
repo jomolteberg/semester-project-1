@@ -50,6 +50,10 @@
   color: var(--color-orange);
 } 
 
+.footer_container {
+  gap: 3.5rem;
+}
+
   /* Index */
   .index_mobile {
     display: none;
@@ -300,6 +304,10 @@
 
 .flex_container-visit {
   flex-direction: row;
+  padding: 25px; 
+  border-inline-end: 10px solid var(--color-orange);
+  border-block-end: 10px solid var(--color-orange);
+  margin: 0 10%;
  
 }
 
@@ -310,6 +318,7 @@
   padding: 25px; 
   border-inline-end: 10px solid var(--color-orange);
   border-block-end: 10px solid var(--color-orange);
+  margin: 0 10%;
 }
 
 

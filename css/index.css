@@ -31,6 +31,7 @@
   .text_special-events {
     color: var(--color-main);
     text-decoration: underline;
+    margin-top: 2rem;
   }
 
   .index_desktop {
