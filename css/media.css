@@ -2,6 +2,7 @@
   .header__nav-container {
     margin: 0 10%;
     min-height: 120px;
+    
   }
 
   .header__nav-menu {
@@ -57,6 +58,8 @@
     padding: 3rem 2rem;
     border-radius: 7px;
     align-items: center;
+    box-shadow: rgba(47, 79, 170, 0.50) 0px 3px 6px,
+    rgba(47, 79, 170, 0.23) 0px 3px 6px;
   }
 
   .grid_container-text {
