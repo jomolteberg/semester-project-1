@@ -233,6 +233,7 @@
     text-transform: uppercase;
     letter-spacing: 0.05em;
     font-size: 2rem;
+    margin-top: 1rem;
   }
 
   .index_hero-content > p {
