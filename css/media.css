@@ -32,7 +32,8 @@
     margin: 0;
   }
 
-  p {
+  p,
+  li {
     font-size: 1.2rem;
   }
 
@@ -42,6 +43,10 @@
 
   .footer_container {
     gap: 3.5rem;
+  }
+
+  footer h3 {
+    font-size: 1.3rem;
   }
 
   /* Index */

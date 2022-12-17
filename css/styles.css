@@ -18,7 +18,8 @@ a {
 }
 
 p,
-li {
+li,
+ul {
   font-family: var(--text-paragraph);
 }
 
@@ -158,6 +159,10 @@ footer {
   display: flex;
   flex-direction: column;
   margin-top: 3rem;
+}
+
+footer h3 {
+  font-size: 1.2rem;
 }
 
 .footer_container {
