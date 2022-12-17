@@ -5,6 +5,35 @@
     padding: 2rem;
   }
 
+  .grid_header-explore {
+    background-color: var(--color-white);
+    border: var(--color-main) 1px solid;
+  }
+  
+  .img_grid-explore {
+    grid-row: 2 / 9;
+    grid-column: 1 / 15;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  
+  .grid_container-explore-text {
+    margin: -30px 10% 20px;
+    background-color: var(--color-white);
+    color: var(--color-main);
+    padding: 1rem;
+    max-width: 700px;
+    text-align: justify;
+    align-self: center;
+    line-height: 1.5;
+    border: 1px solid var(--color-main);
+    font-weight: 500;
+  }
+  
+
   .grid_header-explore,
   .grid_header-reverse {
     font-size: 1.5rem;
@@ -12,7 +41,7 @@
     grid-column: 1 / 7;
   }
 
-  .img-kids,
+  .img_grid-explore,
   .img_grid-reverse {
     grid-row: 1 / 5;
     grid-column: 1 / 9;
