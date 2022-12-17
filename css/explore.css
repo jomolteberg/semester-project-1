@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(4, 85px);
-    padding: 2rem;
+    margin-top: 2rem;
   }
 
   .grid_header-explore {
@@ -31,6 +31,7 @@
     line-height: 1.5;
     border: 1px solid var(--color-main);
     font-weight: 500;
+    margin-top: 1rem;
   }
   
 
