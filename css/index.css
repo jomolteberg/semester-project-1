@@ -1,15 +1,6 @@
 
-/* .hero_index {
-    color: white;
-    background: url(../images/vr-image-gradient.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 460px;
-    background-blend-mode: multiply;
-    font-family: var(--text-heading);
-    
-}  */
-  
+
+
 .hero_index {
   display: flex;
     align-items: center;

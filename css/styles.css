@@ -41,7 +41,7 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
   text-align: center;
 }
 
@@ -74,7 +74,7 @@ a {
 
 a:visited {
   text-decoration: none;
-  color: black;
+ 
 }
 
 .text__color-orange {
@@ -112,6 +112,7 @@ header {
   text-transform: uppercase;
   letter-spacing: 0.09em;
   flex: 1;
+  font-weight: 700;
 }
 
 .logo__text-museum {
@@ -134,20 +135,35 @@ header {
 
 #menu-checkbox:checked ~ .header__nav-menu {
   display: block;
+  left: 0%;
 }
 
 .header__nav-menu {
-  position: absolute;
-  background: var(--color-main);
-  top: 55px;
-  right: 0px;
+  height: 50vh;
+  width: 100%;
+  position: fixed;
+  background: var(--color-white);
+  top: 4.7rem;
+  left: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  transition: all 1s;
+  gap: 2rem;
 }
 
 .header__nav-menu a {
   display: block;
-  color: white;
-  font-family: var(--text-paragraph);
-  padding: 10px 20px;
+  color: var(--color-main);
+  font-family: var(--text-heading);
+  padding: 1rem;
+  margin-top: 0.7rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.header__nav-menu .active {
+  color: var(--color-orange);
 }
 
 .fa-solid,
@@ -348,3 +364,5 @@ footer {
 #grid_container-hero-blue {
   background-color: var(--color-main);
 }
+
+
