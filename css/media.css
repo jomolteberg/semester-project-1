@@ -12,12 +12,12 @@
     position: static;
     height: auto;
     width: auto;
-    gap: 0;
+    gap: 1;
   }
 
-  .header__nav-menu a:hover {
+  /* .header__nav-menu a:hover {
     text-decoration: underline;
-  }
+  } */
 
   .header__nav-menu a {
     font-family: var(--text-heading);

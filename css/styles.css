@@ -68,18 +68,7 @@ ul {
 }
 
 
-a {
-  text-decoration: none;
-}
 
-.logo a:visited {
-  color: var(--color-orange);
-}
-
-a:visited {
-  text-decoration: none;
- 
-}
 
 .text__color-orange {
   color: #fc826a;
@@ -156,15 +145,6 @@ header {
   gap: 2rem;
 }
 
-.header__nav-menu a {
-  display: block;
-  color: var(--color-main);
-  font-family: var(--text-heading);
-  padding: 1rem;
-  margin-top: 0.7rem;
-  font-size: 1.2rem;
-  font-weight: 700;
-}
 
 .header__nav-menu .active {
   color: var(--color-orange);
