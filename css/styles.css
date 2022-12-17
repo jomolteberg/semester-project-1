@@ -112,6 +112,7 @@ header {
   flex-direction: column;
   transition: all 0.7s;
   gap: 2rem;
+  margin-top: 1rem;
 }
 
 .header__nav-menu .active {
