@@ -15,14 +15,9 @@
     gap: 1;
   }
 
-  /* .header__nav-menu a:hover {
-    text-decoration: underline;
-  } */
-
   .header__nav-menu a {
     font-family: var(--text-heading);
     color: var(--color-main);
-    
   }
 
   .logo__text {
@@ -41,7 +36,9 @@
     font-size: 1.2rem;
   }
 
-  
+  footer {
+    margin-top: 5rem;
+  }
 
   .footer_container {
     gap: 3.5rem;
@@ -115,7 +112,7 @@
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    margin: 0 10%;
+    margin: 3rem 10% 0;
     padding: 3rem 2rem;
     border-radius: 7px;
     align-items: center;
