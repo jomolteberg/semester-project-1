@@ -223,8 +223,8 @@ img {
 }
 
 .img__logo {
-  height: 75px;
-  flex: 1;
+  max-height: 75px;
+ 
 }
 
 .img_grid {
