@@ -101,7 +101,7 @@ header {
 }
 
 .header__nav-menu {
-  height: 50vh;
+  height: 40vh;
   width: 100%;
   position: fixed;
   background: var(--color-white);
