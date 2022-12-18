@@ -51,6 +51,8 @@
     font-size: 1.3rem;
   }
 
+  /* grid */
+
   .grid_container {
     display: grid;
     grid-template-columns: repeat(16, 1fr);
@@ -150,6 +152,8 @@
   .grid_header-orange {
     color: var(--color-orange);
   }
+
+/* images */
 
 .img__logo {
   max-height: 85px;
